@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingredients</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="content-section" id="ingredients">
+        <div class="container">
+            <div class="content-section-heading text-center">
+                <h3 class="text-secondary mb-0">RECIPEA</h3>
+                <h2 class="mb-5">Ingredients</h2>
+                <h4 class="text-secondary mb-0" id="ingredients-array"></h4>
+                <br>
+                <label for="searchFilter">Search Ingredients:</label>
+                
+                <input type="text" id="searchFilter" name="searchFilter">
+                <a class="btn btn-primary btn-xl js-scroll-trigger" id="searchFilterButton" style="margin: 5px;">Filtered Search</a>
+                <div id="buttonsHolder"></div>
+                <div id="name"></div>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="ingredients.html" id="clear" style="margin: 5px;">Clear Ingredients</a>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" id="filterResetButton" style="margin: 5px;">Reset Filter</a>
+            </div>
+            <div class="row no-gutters" id="ingredients-items">
+                
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" id="search-button" href="generated.html">
+        <h2>Search</h2>
+    </a>
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        window.onload = function() {
+            sessionStorage.clear();
+        };
+    </script>
+</body>
+</html>
