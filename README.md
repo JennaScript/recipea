@@ -3,7 +3,7 @@
 This project was created by Marcos Abadi, JConr B. Riddell, Lily Moon, & Jennalyn Kabiling
 Built with Bootstrap, JavaScript, HTML & CSS.
 
-The purpose of our website is to allow users to input/select recipe ingredients and have generated recipes developed as a result. 
+The purpose of our website is to allow users to input and/or select ingredients and have generated recipes developed as a result, as opposed to just looking up certain recipes and then buying the ingredients for said recipe. Our website allows users to input ingredients they already have in their fridge or pantry and we generate recipes for what they can make with it. 
 
 <img width="1423" alt="Captura de Pantalla 2021-03-01 a la(s) 12 12 48 p m" src="https://user-images.githubusercontent.com/60407839/109539919-78281b00-7a87-11eb-9ef9-e4795ea1427e.png">
 
@@ -15,6 +15,4 @@ This project was developed as a passion project, founded on the idea of needing 
 
 <a href="https://jennascript.github.io/recipea/"><h2>Check out our project</h2></a>
 
-
-Notes: Data fetched from Spoonacular API
-
+Notes: Data (implemented API) fetched from Spoonacular API
